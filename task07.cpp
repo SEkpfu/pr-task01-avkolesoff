@@ -13,7 +13,7 @@ int main ()
 {
     float totalSum = 0.0;
 
-    for (int i = 1; i < 6; i++)
+    for (int i = 1; i <= 5; i++)
     {
         float hours, payment, sum;
         inputWorkerData(hours, payment, i);
